@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "check:db": "node utils/checkDbConnection.js"
+    "check:db": "node utils/checkDbConnection.js",
+    "build": "echo 'No build needed'"
+
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
